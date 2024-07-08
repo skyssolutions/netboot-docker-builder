@@ -24,6 +24,7 @@ RUN \
       libslirp-dev \
       python3-pip \
       python3-setuptools \
-      toilet
+      toilet \
+      mtools
 
 RUN pip3 install ansible==${ANSIBLE_VERSION}
